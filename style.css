@@ -83,9 +83,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    margin-bottom: 1rem;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 2.5rem 0;
     border: 1px solid lightgray;
 }
 
@@ -93,12 +92,13 @@ body {
     group:nth-child(1): pegar os filhos do elemento, nesse caso (1), será unicamente o 1º filho
 */
 
-.group:nth-child(1) {
+.group {
     min-height: 19rem;
 }
 
-.instagram-logo {
-    height: 3rem;
+.instagram-logo-name {
+    height: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .profile-photo {
@@ -107,11 +107,12 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 2rem;
     /* para imagem não exceder o tamanho da div para fora */
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 8rem;
 }
 
 .instagram-login {
@@ -121,6 +122,7 @@ body {
     border-radius: 4px;
     padding: 6px 25px;
     font-weight: 500;
+    margin-bottom: 1.5rem;
 }
 
 .instagram-logout {
@@ -136,8 +138,9 @@ body {
     color: var(--color-blue-instagram);
 }
 
-.group:nth-child(2) {
-    color: #a7a8a8;
+.link-blue:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .get-the-app {
